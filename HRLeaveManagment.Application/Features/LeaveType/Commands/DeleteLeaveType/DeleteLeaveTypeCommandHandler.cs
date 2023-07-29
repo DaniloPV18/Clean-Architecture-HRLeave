@@ -1,10 +1,5 @@
 ﻿using HRLeaveManagment.Application.Contracts.Persistence;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HRLeaveManagment.Application.Features.LeaveType.Commands.DeleteLeaveType
 {
