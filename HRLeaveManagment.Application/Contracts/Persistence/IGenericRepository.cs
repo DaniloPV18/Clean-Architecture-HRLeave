@@ -1,6 +1,8 @@
-﻿namespace HRLeaveManagment.Application.Contracts.Persistence
+﻿using HRLeaveManagment.Domain.Common;
+
+namespace HRLeaveManagment.Application.Contracts.Persistence
 {
-    public interface IGenericRepository<T> where T : class
+    public interface IGenericRepository<T> where T : BaseEntity
     {
         Task<T> CreateAsync(T entity);
         Task<T> UpdateAsync(T entity);
